@@ -44,7 +44,7 @@ If GDAL requires compilation or the network connection is slow, the process may 
 ### Demo
 A working example is provided in `mapping_example.py`.
 
-The sample dataset (~13 GB) is available at Zenodo: https://doi.org/xxxxxx
+The sample dataset (~13 GB) is available at Zenodo: 10.5281/zenodo.17446613
 
 Before running the code, please modify the directory paths in  
 `commons/paths.py` to match your **local data directories**.
