@@ -14,9 +14,9 @@ from mapping.mapping_func import (find_floods, find_matures, get_valid_arr,
                                   check_results, write_no_rice)
 from mapping.compute_similarity import dtw_matching
 
-from tools.file.files_process import is_fold_exist, delete_file
-from tools.raster.raster_process import create_raster
-from tools.time.time_process import get_year_daynum
+from tools.files_process import is_fold_exist, delete_file
+from tools.raster_process import create_raster
+from tools.time_process import get_year_daynum
 
 
 

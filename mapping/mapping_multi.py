@@ -14,9 +14,9 @@ from mapping.mapping_func import (find_floods, find_matures, get_valid_arr,
                                   check_results, write_no_rice, get_no_rice_tiles)
 from mapping.compute_similarity import dtw_matching
 
-from tools.file.files_process import is_file_good, is_fold_exist, delete_file
-from tools.raster.raster_process import read_raster, create_raster
-from tools.time.time_process import get_year_daynum
+from tools.files_process import is_file_good, is_fold_exist, delete_file
+from tools.raster_process import read_raster, create_raster
+from tools.time_process import get_year_daynum
 
 
 def get_multi_infos(year, para_region, purity, threshold, flood_doy_range, flood_factor, grow_range, NDVI_ceiling):
